@@ -1,4 +1,6 @@
+/*
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+*/
 
 body
 {
@@ -16,7 +18,9 @@ span
 	display: block;
 	float: right;
 	width: 85%;
+/*
 	font-family: 'Oleo Script Swash Caps', cursive;
+*/
 }
 
 span#clock_date
