@@ -18,6 +18,8 @@ function clock()
 	if (s < 10) s = "0" + s;
 
 	document.getElementById("clock_date").innerHTML =  y + "/" + mo + "/" + d + " (" + w + ")";
-	document.getElementById("clock_time").innerHTML = h + ":" + mi + ":" + s;
+	document.getElementById("clock_time").innerHTML = h + ":" + mi
+		+ ":" + s
+	;
 	document.getElementById("clock_frame").style.fontSize =  window.innerWidth / 10 + "px";
 }
