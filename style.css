@@ -1,6 +1,8 @@
 /*
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+Archivo Black
 */
+@import url(http://fonts.googleapis.com/css?family=Archivo+Black);
 
 body
 {
@@ -18,9 +20,7 @@ span
 	display: block;
 	float: right;
 	width: 85%;
-/*
-	font-family: 'Oleo Script Swash Caps', cursive;
-*/
+	font-family: 'Archivo Black';
 }
 
 span#clock_date
