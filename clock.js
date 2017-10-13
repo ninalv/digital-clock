@@ -2,7 +2,7 @@ setInterval(clock, 1000);
 
 function clock()
 {
-	var weeks = new Array("Sun","Mon","Thu","Wed","Thr","Fri","Sat");
+	var weeks = new Array("Sun", "Mon", "Thu", "Wed", "Thr", "Fri", "Sat");
 	var now = new Date();
 	var y = now.getFullYear();
 	var mo = now.getMonth() + 1;
@@ -18,7 +18,7 @@ function clock()
 	//if (s < 10) s = "0" + s;
 
 	document.getElementById("clock_date").innerHTML = y + "/" + mo + "/" + d + " " + w;
-	document.getElementById("clock_time").innerHTML = (h % 12) + ":" + mi + (h < 12 ? "am" : "pm");
+	document.getElementById("clock_time").innerHTML = (h % 12) + ":" + mi + " " + (h < 12 ? "am" : "pm");
 		//now.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
 	document.getElementById("clock_frame").style.fontSize = window.innerWidth / 10 + "px";
 }
