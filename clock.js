@@ -17,9 +17,10 @@ function clock()
 	if (mi < 10) mi = "0" + mi;
 	//if (s < 10) s = "0" + s;
 
-	document.getElementById("clock_date").innerHTML =  y + "/" + mo + "/" + d + " (" + w + ")";
+	document.getElementById("clock_date").innerHTML = y + "/" + mo + "/" + d + " " + w;
 	document.getElementById("clock_time").innerHTML = h + ":" + mi
 		//+ ":" + s
+		+ now.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
 	;
 	document.getElementById("clock_frame").style.fontSize =  window.innerWidth / 10 + "px";
 }
