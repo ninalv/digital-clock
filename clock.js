@@ -20,5 +20,5 @@ function clock()
 	document.getElementById("clock_date").innerHTML = y + "/" + mo + "/" + d + " " + w;
 	document.getElementById("clock_time").innerHTML = (h % 12) + ":" + mi + " " + (h < 12 ? "am" : "pm");
 		//now.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
-	document.getElementById("clock_frame").style.fontSize = window.innerWidth / 10 + "px";
+	document.getElementById("clock_frame").style.fontSize = window.innerWidth / 8 + "px";
 }
