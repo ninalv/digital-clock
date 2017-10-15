@@ -18,7 +18,7 @@ function clock()
 	//if (s < 10) s = "0" + s;
 
 	document.getElementById("clock_date").innerHTML = y + "/" + mo + "/" + d + " " + w;
-	document.getElementById("clock_time").innerHTML = (h % 12) + ":" + mi + " " + (h < 12 ? "am" : "pm") + "\ntest\n12:34am";
+	document.getElementById("clock_time").innerHTML = (h % 12) + ":" + mi + " " + (h < 12 ? "am" : "pm") + "\ntest\n12:34 am";
 		//now.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
 	document.getElementById("clock_frame").style.fontSize = window.innerWidth / 8 + "px";
 }
