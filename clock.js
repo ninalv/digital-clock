@@ -1,4 +1,5 @@
 setInterval(clock, 1000 * 60);
+clock();
 
 function clock()
 {
